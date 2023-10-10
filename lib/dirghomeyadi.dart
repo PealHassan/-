@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smart_bondhu/IUD.dart';
 import 'package:smart_bondhu/implant.dart';
-import 'package:smart_bondhu/osthayi.dart';
+
 
 class dirghomeyadi extends StatefulWidget {
   dirghomeyadiState createState() => dirghomeyadiState();  
@@ -11,7 +11,7 @@ class dirghomeyadiState extends State<dirghomeyadi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
+        
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -99,7 +99,7 @@ class dirghomeyadiState extends State<dirghomeyadi> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => osthayi()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

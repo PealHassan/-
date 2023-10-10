@@ -11,7 +11,7 @@ class SplashState extends State<splash> {
   }
   void _navigatetohome()async{
     await Future.delayed(Duration(milliseconds: 1500), (){});
-    Navigator.push(context, MaterialPageRoute(builder: (context) => home()));
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => home()));
   }
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/IUD.dart';
 
 
 
@@ -220,7 +219,7 @@ class IUDFaqState extends State<IUDFaq> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => IUD()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

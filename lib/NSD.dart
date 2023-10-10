@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smart_bondhu/NSDFaq.dart';
 import 'package:smart_bondhu/NSDOshubidha.dart';
 import 'package:smart_bondhu/NSDShubidha.dart';
-import 'package:smart_bondhu/sthayi.dart';
+
 
 class NSD extends StatefulWidget {
   NSDState createState() => NSDState();  
@@ -53,7 +53,7 @@ class NSDState extends State<NSD> {
               height: 30,
             ),
             Text(
-              "এন এস ডি", 
+              "এন এস ভি", 
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
@@ -121,7 +121,6 @@ class NSDState extends State<NSD> {
             ),
             SizedBox(height: 20,),
               Container(
-                width: 200,
                 child: Text(
                   "যেখানে এই সেবা পাবেনঃ",
                   style: TextStyle(
@@ -133,23 +132,35 @@ class NSDState extends State<NSD> {
                 ),
               ),
               Container(
-                width: 200,
+                
                 child: Text(
-                  "আপনার নিকটস্থ ইউনিয়ন স্বাস্থ্য ও পরিবার কল্যাণ কেন্দ্র/মাতৃসদন/FWA/FPI/FWV এর নিকট",
+                  "আপনার নিকটস্থ ইউনিয়ন স্বাস্থ্য ও পরিবার কল্যাণ কেন্দ্র/",
                   style: TextStyle(
                       color: Colors.red,
-                      fontSize: 20,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
                 ),
               ),
-              SizedBox(height: 50,),
+              Container(
+                
+                child: Text(
+                  "মাতৃসদন/FWA/FPI/FWV এর নিকট",
+                  style: TextStyle(
+                      color: Colors.red,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    textAlign: TextAlign.center,
+                ),
+              ),
+              SizedBox(height: 20,),
             Container(
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => sthayi()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

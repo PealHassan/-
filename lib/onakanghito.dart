@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/home.dart';
 import 'package:smart_bondhu/onakanghitoOshubidha.dart';
 
 class onakanghito extends StatefulWidget {
@@ -80,7 +79,7 @@ class onakanghitoState extends State<onakanghito> {
               child: Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  "ECP কোন নিয়মিত পদ্ধতি নয় । এটি প্রযোজ্য -", 
+                  "ECP কোন নিয়মিত পদ্ধতি নয় । এটি প্রযোজ্য", 
                   style: TextStyle(
                     fontSize: 20,
                     
@@ -88,7 +87,7 @@ class onakanghitoState extends State<onakanghito> {
                 ),
               ),
             ),
-            SizedBox(height: 20,),
+            
             Padding(
               padding: EdgeInsets.only(left: 20,right: 20),
               child: Column(
@@ -179,7 +178,7 @@ class onakanghitoState extends State<onakanghito> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => home()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

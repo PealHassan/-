@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/tubectomi.dart';
-
 
 
 class tubectomiOshubidha extends StatefulWidget {
@@ -53,7 +51,7 @@ class tubectomiOshubidhaState extends State<tubectomiOshubidha> {
             ),
             Center(
               child: Text(
-                "টিউবেকট্মি এর অসুবিধা", 
+                "টিউবেকটমি এর অসুবিধা", 
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
@@ -113,7 +111,7 @@ class tubectomiOshubidhaState extends State<tubectomiOshubidha> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => tubectomi()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/implant.dart';
+
 
 
 
@@ -206,7 +206,7 @@ class implantFaqState extends State<implantFaq> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => implant()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

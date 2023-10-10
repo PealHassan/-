@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/implant.dart';
+
 
 class implantShubidha extends StatefulWidget {
   implantShubidhaState createState() => implantShubidhaState();  
@@ -111,7 +111,7 @@ class implantShubidhaState extends State<implantShubidha> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => implant()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

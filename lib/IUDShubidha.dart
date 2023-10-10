@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/IUD.dart';
+
 
 
 class IUDShubidha extends StatefulWidget {
@@ -112,7 +112,7 @@ class IUDShubidhaState extends State<IUDShubidha> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => IUD()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

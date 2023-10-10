@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smart_bondhu/khabarBoriFaq.dart';
 import 'package:smart_bondhu/khabarBoriOshubidha.dart';
 import 'package:smart_bondhu/khabarBoriShubidha.dart';
-import 'package:smart_bondhu/sholpomeyadi.dart';
+
 
 class khabarBori extends StatefulWidget {
   khabarBoriState createState() => khabarBoriState();  
@@ -18,14 +18,14 @@ class ColoredText extends StatelessWidget {
           TextSpan(
             text: text3,
             style: TextStyle(
-              fontSize: 18,
+              fontSize: 20,
               color: Colors.black, // Color for the remaining text
             ),
           ),
           TextSpan(
             text: text,
             style: TextStyle(
-              fontSize: 18,
+              fontSize: 20,
               color: Colors.black,
               fontWeight: FontWeight.bold // Color for "উত্তর :"
             ),
@@ -33,7 +33,7 @@ class ColoredText extends StatelessWidget {
           TextSpan(
             text: text2,
             style: TextStyle(
-              fontSize: 18,
+              fontSize: 20,
               color: Colors.black, // Color for the remaining text
             ),
           ),
@@ -131,7 +131,7 @@ class khabarBoriState extends State<khabarBori> {
               padding: const EdgeInsets.only(left: 20),
               child: Align(
                 alignment: Alignment.centerLeft,
-                child: ColoredText("প্রজেস্টরনসমৃদ্ধ বড়িঃ ","প্রসব পরবর্তী/সন্তানের বয়স  মাস হওয়া পর্যন্ত সকল মা ।","খ) "),
+                child: ColoredText("প্রজেস্টেরনসমৃদ্ধ বড়িঃ ","প্রসব পরবর্তী/সন্তানের বয়স ৬ মাস হওয়া পর্যন্ত সকল মা ।","খ) "),
               ),
             ),
       
@@ -145,7 +145,7 @@ class khabarBoriState extends State<khabarBori> {
                 child: Text(
                   "গ) যার স্ত্রী সম্প্রতি বাচ্চা প্রসব করেছেন", 
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 22,
         
                   ),
                 ),
@@ -194,9 +194,8 @@ class khabarBoriState extends State<khabarBori> {
                 )
               ),
             ),
-            SizedBox(height: 20,),
+           SizedBox(height: 20,),
               Container(
-                width: 200,
                 child: Text(
                   "যেখানে এই সেবা পাবেনঃ",
                   style: TextStyle(
@@ -208,23 +207,35 @@ class khabarBoriState extends State<khabarBori> {
                 ),
               ),
               Container(
-                width: 200,
+                
                 child: Text(
-                  "আপনার নিকটস্থ ইউনিয়ন স্বাস্থ্য ও পরিবার কল্যাণ কেন্দ্র/মাতৃসদন/FWA/FPI/FWV এর নিকট",
+                  "আপনার নিকটস্থ ইউনিয়ন স্বাস্থ্য ও পরিবার কল্যাণ কেন্দ্র/",
                   style: TextStyle(
                       color: Colors.red,
-                      fontSize: 20,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
                 ),
               ),
-              SizedBox(height: 10,),
+              Container(
+                
+                child: Text(
+                  "মাতৃসদন/FWA/FPI/FWV এর নিকট",
+                  style: TextStyle(
+                      color: Colors.red,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    textAlign: TextAlign.center,
+                ),
+              ),
+              SizedBox(height: 20,),
             Container(
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => sholpomeyadi()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/onakanghito.dart';
+
 
 
 
@@ -119,7 +119,7 @@ class onakanghitoOshubidhaState extends State<onakanghitoOshubidha> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => onakanghito()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

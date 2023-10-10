@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:smart_bondhu/NSD.dart';
-import 'package:smart_bondhu/home.dart';
 import 'package:smart_bondhu/tubectomi.dart';
 class sthayi extends StatefulWidget {
   sthayiState createState() => sthayiState();  
@@ -123,7 +122,7 @@ class sthayiState extends State<sthayi> {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => NSD()));
                 }, 
                 child: Text(
-                  "পুরুষদের জন্য এন এস ডি",
+                  "পুরুষদের জন্য এনএসভি",
                   style: TextStyle(fontSize: 20),
                 )
               ),
@@ -146,7 +145,7 @@ class sthayiState extends State<sthayi> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => home()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

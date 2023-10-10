@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/sthayi.dart';
 import 'package:smart_bondhu/tubectomiFaq.dart';
 import 'package:smart_bondhu/tubectomiOshubidha.dart';
 import 'package:smart_bondhu/tubectomiShubidha.dart';
@@ -117,7 +116,6 @@ class tubectomiState extends State<tubectomi> {
             ),
            SizedBox(height: 20,),
               Container(
-                width: 200,
                 child: Text(
                   "যেখানে এই সেবা পাবেনঃ",
                   style: TextStyle(
@@ -129,23 +127,35 @@ class tubectomiState extends State<tubectomi> {
                 ),
               ),
               Container(
-                width: 200,
+                
                 child: Text(
-                  "আপনার নিকটস্থ ইউনিয়ন স্বাস্থ্য ও পরিবার কল্যাণ কেন্দ্র/মাতৃসদন/FWA/FPI/FWV এর নিকট",
+                  "আপনার নিকটস্থ ইউনিয়ন স্বাস্থ্য ও পরিবার কল্যাণ কেন্দ্র/",
                   style: TextStyle(
                       color: Colors.red,
-                      fontSize: 20,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
                 ),
               ),
-              SizedBox(height: 50,),
+              Container(
+                
+                child: Text(
+                  "মাতৃসদন/FWA/FPI/FWV এর নিকট",
+                  style: TextStyle(
+                      color: Colors.red,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    textAlign: TextAlign.center,
+                ),
+              ),
+              SizedBox(height: 20,),
             Container(
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => sthayi()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

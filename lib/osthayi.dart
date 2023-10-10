@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:smart_bondhu/dirghomeyadi.dart';
-import 'package:smart_bondhu/home.dart';
 import 'package:smart_bondhu/sholpomeyadi.dart';
 
 class osthayi extends StatefulWidget {
@@ -99,7 +98,7 @@ class osthayiState extends State<osthayi> {
                   width: 100,
                   child: ElevatedButton(
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => home()));
+                      Navigator.of(context).pop();
                     }, 
                     child: Text(
                       "Back",

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smart_bondhu/condom.dart';
 import 'package:smart_bondhu/injection.dart';
 import 'package:smart_bondhu/khabarBori.dart';
-import 'package:smart_bondhu/osthayi.dart';
+
 
 class sholpomeyadi extends StatefulWidget {
   sholpomeyadiState createState() => sholpomeyadiState();  
@@ -110,7 +110,7 @@ class sholpomeyadiState extends State<sholpomeyadi> {
                 width: 100,
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => osthayi()));
+                    Navigator.of(context).pop();
                   }, 
                   child: Text(
                     "Back",

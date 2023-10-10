@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/condom.dart';
 
 
 class condomFaq extends StatefulWidget {
@@ -192,7 +191,7 @@ class condomFaqState extends State<condomFaq> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => condom()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/khabarBori.dart';
+
 
 
 class khabarBoriOshubidha extends StatefulWidget {
@@ -142,7 +142,7 @@ class khabarBoriOshubidhaState extends State<khabarBoriOshubidha> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => khabarBori()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

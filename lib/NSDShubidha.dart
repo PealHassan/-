@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/NSD.dart';
 
 
 class NSDShubidha extends StatefulWidget {
@@ -52,7 +51,7 @@ class NSDShubidhaState extends State<NSDShubidha> {
             ),
             Center(
               child: Text(
-                "এন এস ডি এর সুবিধা", 
+                "এনএসভি এর সুবিধা", 
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
@@ -94,7 +93,7 @@ class NSDShubidhaState extends State<NSDShubidha> {
                   ),
                   ListTile(
                         leading: Icon(Icons.circle,color: Colors.blue,),
-                        title: Text('এনএসডি পদ্ধতিতে চামড়া কাটা লাগে না। ফলে সেলাই করা প্রয়োজন হয় না। খুবই অল্প সময় লাগে (৫-৭ মিনিট)',style: TextStyle(fontSize: 20),),
+                        title: Text('এনএসভি পদ্ধতিতে চামড়া কাটা লাগে না। ফলে সেলাই করা প্রয়োজন হয় না। খুবই অল্প সময় লাগে (৫-৭ মিনিট)',style: TextStyle(fontSize: 20),),
                   ),
                   SizedBox(
                     height: 10,
@@ -141,7 +140,7 @@ class NSDShubidhaState extends State<NSDShubidha> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => NSD()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/injection.dart';
-
 class injectionShubidha extends StatefulWidget {
   injectionShubidhaState createState() => injectionShubidhaState();  
 }
@@ -146,7 +144,7 @@ class injectionShubidhaState extends State<injectionShubidha> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => injection()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

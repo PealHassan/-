@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/injection.dart';
+
 
 
 class injectionFaq extends StatefulWidget {
@@ -98,19 +98,19 @@ class injectionFaqState extends State<injectionFaq> {
                   ),
                   Align(
                     alignment: Alignment.centerLeft,
-                    child: Text("প্রশ্ন-১. বুকের দুধ পান করাচ্ছেন এমন মায়েরা কি ডিএমপিএ ব্যবহার করতে পারেন ?",textAlign: TextAlign.left, style : TextStyle(fontSize: 20,color: Colors.blue),)
+                    child: Text("প্রশ্ন-১. বুকের দুধ পান করাচ্ছেন এমন মায়েরা কি ডিএমপিএ ইনজেকশন ব্যবহার করতে পারেন ?",textAlign: TextAlign.left, style : TextStyle(fontSize: 20,color: Colors.blue),)
                   ),
                   
                   Align(
                     alignment: Alignment.centerLeft,
-                    child: ColoredText("হ্যাঁ। বুকের দুধ পান করাচ্ছেন এমন মায়েদের জন্য ডিএমপিএ গ্রহণযোগ্য। প্রসবের ৬ সপ্তাহ পরই এটা শুরু করা যায়।"),
+                    child: ColoredText("হ্যাঁ। বুকের দুধ পান করাচ্ছেন এমন মায়েদের জন্য ডিএমপিএ ইনজেকশন গ্রহণযোগ্য। প্রসবের ৬ সপ্তাহ পরই এটা শুরু করা যায়।"),
                   ),
                   SizedBox(
                     height: 30,
                   ),
                   Align(
                     alignment: Alignment.centerLeft,
-                    child: Text("প্রশ্ন-২. ইনজেকশন নেয়া অবস্থায় যদি কোন মহিলার অনেকদিন যাবত মাসিক বন্ধ থাকে তখন কি তার ডিএমপিএ ব্যবহার বন্ধ করা উচিত?",textAlign: TextAlign.left, style : TextStyle(fontSize: 20,color: Colors.blue),)
+                    child: Text("প্রশ্ন-২. ইনজেকশন নেয়া অবস্থায় যদি কোন মহিলার অনেকদিন যাবত মাসিক বন্ধ থাকে তখন কি তার ডিএমপিএ ইনজেকশন ব্যবহার বন্ধ করা উচিত?",textAlign: TextAlign.left, style : TextStyle(fontSize: 20,color: Colors.blue),)
                   ),
                   Align(
                     alignment: Alignment.centerLeft,
@@ -120,18 +120,18 @@ class injectionFaqState extends State<injectionFaq> {
                   ),
                   Align(
                     alignment: Alignment.centerLeft,
-                    child: Text("প্রশ্ন-৩. কোন অল্পবয়সী যুবতী, বয়সী মহিলা এবং যে মহিলার কোন বাচ্চা নেই তারা কি ডিএমপিএ ব্যবহার করতে পারেন?",textAlign: TextAlign.left, style : TextStyle(fontSize: 20,color: Colors.blue),)
+                    child: Text("প্রশ্ন-৩. কোন অল্পবয়সী যুবতী, বয়সী মহিলা এবং যে মহিলার কোন বাচ্চা নেই তারা কি ডিএমপিএ ইনজেকশন ব্যবহার করতে পারেন?",textAlign: TextAlign.left, style : TextStyle(fontSize: 20,color: Colors.blue),)
                   ),
                   Align(
                     alignment: Alignment.centerLeft,
-                    child: ColoredText("বাংলাদেশের জন্য প্রযোজ্য জন্মবিরতিকরণ পদ্ধতি ব্যবহারের নীতিমালা অনুযায়ী কেবলমাত্র বিবাহিত মহিলারা যাদের কমপক্ষে ১টি জীবিত সন্তান আছে তারাই ডিএমপিএ ব্যবহার করতে পারেন। এছাড়া অন্য কোন স্বাস্থ্যগত নিষেধ না থাকলে যে কোন বয়সী মহিলা বা যুবতী ইনজেকশন ব্যবহার করতে পারবেন।"),
+                    child: ColoredText("বাংলাদেশের জন্য প্রযোজ্য জন্মবিরতিকরণ পদ্ধতি ব্যবহারের নীতিমালা অনুযায়ী কেবলমাত্র বিবাহিত মহিলারা যাদের কমপক্ষে ১টি জীবিত সন্তান আছে তারাই ডিএমপিএ ইনজেকশন ব্যবহার করতে পারেন। এছাড়া অন্য কোন স্বাস্থ্যগত নিষেধ না থাকলে যে কোন বয়সী মহিলা বা যুবতী ইনজেকশন ব্যবহার করতে পারবেন।"),
                   ),
                   SizedBox(
                     height: 30,
                   ),
                   Align(
                     alignment: Alignment.centerLeft,
-                    child: Text("প্রশ্ন-৪. একজন গর্ভবর্তী মহিলা যদি ডিএমপিএ ব্যবহার করেন তবে কি এটা তার জন্য ক্ষতিকারক?",textAlign: TextAlign.left, style : TextStyle(fontSize: 20,color: Colors.blue),)
+                    child: Text("প্রশ্ন-৪. একজন গর্ভবর্তী মহিলা যদি ডিএমপিএ ইনজেকশন ব্যবহার করেন তবে কি এটা তার জন্য ক্ষতিকারক?",textAlign: TextAlign.left, style : TextStyle(fontSize: 20,color: Colors.blue),)
                   ),
                   Align(
                     alignment: Alignment.centerLeft,
@@ -162,7 +162,7 @@ class injectionFaqState extends State<injectionFaq> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => injection()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",

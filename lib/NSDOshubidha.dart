@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_bondhu/NSD.dart';
+
 
 
 
@@ -53,7 +53,7 @@ class NSDOshubidhaState extends State<NSDOshubidha> {
             ),
             Center(
               child: Text(
-                "এন এস ডি এর অসুবিধা", 
+                "এনএসভি এর অসুবিধা", 
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
@@ -124,7 +124,7 @@ class NSDOshubidhaState extends State<NSDOshubidha> {
               width: 100,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => NSD()));
+                  Navigator.of(context).pop();
                 }, 
                 child: Text(
                   "Back",
