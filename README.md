@@ -1,16 +1,9 @@
-# smart_bondhu
+# স্মার্ট বন্ধু
 
-A new Flutter project.
+<i>This application is made based on Flutter.</i>
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*Flutter sdk version required : >=3.1.3 <4.0.0*  
+*cupertino_icons: version 1.0.2*  
+*flutter_lints: version 2.0.0*
