@@ -22,7 +22,7 @@
 16        <activity
 16-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:6:9-26:20
 17            android:name="com.papel.smart_bondhu.MainActivity"
-17-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:7:13-41
+17-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:7:13-63
 18            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 18-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:11:13-163
 19            android:exported="true"

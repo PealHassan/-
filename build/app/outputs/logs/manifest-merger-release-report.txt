@@ -118,7 +118,7 @@ ADDED from F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:6:9-26:20
 	android:theme
 		ADDED from F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:10:13-47
 	android:name
-		ADDED from F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:7:13-41
+		ADDED from F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:7:13-63
 meta-data#io.flutter.embedding.android.NormalTheme
 ADDED from F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:18:13-21:17
 	android:resource

@@ -26,13 +26,6 @@ class SplashState extends State<splash> {
               width: 150,
               height: 300,
             ),
-            Text(
-              "স্মার্ট বন্ধু",
-              style: TextStyle(
-                fontSize: 40,
-                color: Colors.blue,
-              ),
-            ),
             SizedBox(
               height: 150,
             ),
