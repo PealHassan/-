@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.papel.smart_bondhu"
+3    package="com.papel2.smart_bondhu"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -21,8 +21,8 @@
 15-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:3:9-38
 16        <activity
 16-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:6:9-26:20
-17            android:name="com.papel.smart_bondhu.MainActivity"
-17-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:7:13-63
+17            android:name="com.papel2.smart_bondhu.MainActivity"
+17-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:7:13-64
 18            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 18-->F:\smart_bondhu\android\app\src\main\AndroidManifest.xml:11:13-163
 19            android:exported="true"

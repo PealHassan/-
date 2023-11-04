@@ -1,4 +1,4 @@
-com.papel.smart_bondhu
+com.papel2.smart_bondhu
 attr activityAction
 attr activityName
 attr alpha

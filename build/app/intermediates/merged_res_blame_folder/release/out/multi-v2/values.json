@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.papel.smart_bondhu.app-mergeReleaseResources-9:/values/values.xml",
+            "outputFile": "com.papel2.smart_bondhu.app-mergeReleaseResources-9:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pealh\\.gradle\\caches\\transforms-3\\25cee5f028ac2a6b79fd6278ff5b59e2\\transformed\\jetified-window-1.0.0-beta04\\res\\values\\values.xml",

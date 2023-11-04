@@ -1,4 +1,0 @@
-#Fri Oct 20 17:36:02 BDT 2023
-base.0=F\:\\smart_bondhu\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
